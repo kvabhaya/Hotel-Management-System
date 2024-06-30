@@ -33,7 +33,7 @@ export class RegisterComponent {
       }
     })
   }
-  /*submitForm() {
+  submitForm() {
     console.log('Form Submitted', this.registerForm.value); // Log the form submission
     this.authService.register(this.registerForm.value).subscribe(
       res => {
@@ -50,6 +50,6 @@ export class RegisterComponent {
         this.message.error('Signup failed', {nzDuration: 5000});
       }
     );
-  }*/
+  }
 
 }
